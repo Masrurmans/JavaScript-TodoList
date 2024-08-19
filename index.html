@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="ddd">
+        <input class="inputSearch" placeholder="Search" type="search" name="" id="">
+        <button class="btnAdd">+Add</button>
+        <button class="btnSort">Sort</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+
+    <dialog class="addDialog">
+        <form class="addForm">
+            <input name="addName" placeholder="Add Name" type="text">
+            <button>Submit</button>
+        </form>
+    </dialog>
+
+    <dialog class="editDialog">
+        <form class="editForm">
+            <input name="editName" placeholder="Edit Name" type="text">
+            <button>Submit</button>
+        </form>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
